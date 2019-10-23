@@ -20,6 +20,8 @@ public class Principal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jRadioButtonMenuItem1 = new javax.swing.JRadioButtonMenuItem();
+        jSeparator1 = new javax.swing.JSeparator();
         jButton1 = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
@@ -30,14 +32,22 @@ public class Principal extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
-        jMenu4 = new javax.swing.JMenu();
-        jMenu3 = new javax.swing.JMenu();
+        tmlIntroduccion = new javax.swing.JMenuItem();
+        ItmAspectosGenerales = new javax.swing.JMenuItem();
+        ItmCloroplastos = new javax.swing.JMenuItem();
+        ItmTilacoides = new javax.swing.JMenuItem();
+        jMenuItem1 = new javax.swing.JMenuItem();
+        ItemCLOROFILA = new javax.swing.JMenuItem();
+        ItemReferencias = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
+
+        jRadioButtonMenuItem1.setSelected(true);
+        jRadioButtonMenuItem1.setText("jRadioButtonMenuItem1");
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setText("Siguiente");
+        jButton1.setText("siguiente");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -70,11 +80,61 @@ public class Principal extends javax.swing.JFrame {
 
         jMenu1.setText("Temas");
 
-        jMenu4.setText("jMenu4");
-        jMenu1.add(jMenu4);
+        tmlIntroduccion.setText("Introduccion");
+        tmlIntroduccion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                tmlIntroduccionActionPerformed(evt);
+            }
+        });
+        jMenu1.add(tmlIntroduccion);
 
-        jMenu3.setText("jMenu3");
-        jMenu1.add(jMenu3);
+        ItmAspectosGenerales.setText("Aspectos Generales ");
+        ItmAspectosGenerales.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ItmAspectosGeneralesActionPerformed(evt);
+            }
+        });
+        jMenu1.add(ItmAspectosGenerales);
+
+        ItmCloroplastos.setText("Los Cloroplastos");
+        ItmCloroplastos.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ItmCloroplastosActionPerformed(evt);
+            }
+        });
+        jMenu1.add(ItmCloroplastos);
+
+        ItmTilacoides.setText("Los Tilacoides");
+        ItmTilacoides.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ItmTilacoidesActionPerformed(evt);
+            }
+        });
+        jMenu1.add(ItmTilacoides);
+
+        jMenuItem1.setText("Proceso de Alimentacion");
+        jMenuItem1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem1ActionPerformed(evt);
+            }
+        });
+        jMenu1.add(jMenuItem1);
+
+        ItemCLOROFILA.setText("La Clorofila");
+        ItemCLOROFILA.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ItemCLOROFILAActionPerformed(evt);
+            }
+        });
+        jMenu1.add(ItemCLOROFILA);
+
+        ItemReferencias.setText("Referencias");
+        ItemReferencias.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ItemReferenciasActionPerformed(evt);
+            }
+        });
+        jMenu1.add(ItemReferencias);
 
         jMenuBar1.add(jMenu1);
 
@@ -91,6 +151,41 @@ public class Principal extends javax.swing.JFrame {
         next.setVisible(true);
         
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void tmlIntroduccionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tmlIntroduccionActionPerformed
+       Pantalla2 obj1 =new Pantalla2 ();
+       obj1.setVisible(true);
+    }//GEN-LAST:event_tmlIntroduccionActionPerformed
+
+    private void ItmAspectosGeneralesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItmAspectosGeneralesActionPerformed
+       Pantalla3 obj2 = new Pantalla3 ();
+       obj2.setVisible(true);
+    }//GEN-LAST:event_ItmAspectosGeneralesActionPerformed
+
+    private void ItmCloroplastosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItmCloroplastosActionPerformed
+        pantalla4 obj3 = new pantalla4 ();
+        obj3.setVisible(true);
+    }//GEN-LAST:event_ItmCloroplastosActionPerformed
+
+    private void ItmTilacoidesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItmTilacoidesActionPerformed
+       Pantalla5 obj4 = new Pantalla5 ();
+       obj4.setVisible(true);
+    }//GEN-LAST:event_ItmTilacoidesActionPerformed
+
+    private void jMenuItem1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem1ActionPerformed
+       Pantalla6 obj5 = new Pantalla6 ();
+       obj5.setVisible(true);
+    }//GEN-LAST:event_jMenuItem1ActionPerformed
+
+    private void ItemCLOROFILAActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItemCLOROFILAActionPerformed
+       Pantalla7 obj1 = new Pantalla7 ();
+       obj1.setVisible(true);
+    }//GEN-LAST:event_ItemCLOROFILAActionPerformed
+
+    private void ItemReferenciasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ItemReferenciasActionPerformed
+      Pantalla8 obj2 = new Pantalla8 ();
+      obj2.setVisible(true);
+    }//GEN-LAST:event_ItemReferenciasActionPerformed
 
     /**
      * @param args the command line arguments
@@ -128,6 +223,11 @@ public class Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuItem ItemCLOROFILA;
+    private javax.swing.JMenuItem ItemReferencias;
+    private javax.swing.JMenuItem ItmAspectosGenerales;
+    private javax.swing.JMenuItem ItmCloroplastos;
+    private javax.swing.JMenuItem ItmTilacoides;
     private javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
@@ -138,8 +238,10 @@ public class Principal extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenu jMenu3;
-    private javax.swing.JMenu jMenu4;
     private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JRadioButtonMenuItem jRadioButtonMenuItem1;
+    private javax.swing.JSeparator jSeparator1;
+    private javax.swing.JMenuItem tmlIntroduccion;
     // End of variables declaration//GEN-END:variables
 }
