@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="btnatrass" min="-2" pref="72" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="btnsiguiente" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  <Component id="jLabel1" pref="412" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="20" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="45" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="238" max="-2" attributes="0"/>
+              <EmptySpace pref="16" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnatrass" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnsiguiente" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial Black" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Procesos de Alimentacion de la Planta"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="Para realizar la fotos&#xed;ntesis, las plantas necesitan de la clorofila, que es unasustancia de color verde que tienen en las hojas. Es la encargada de absorber laluz adecuada para realizar este proceso. A su vez, la clorofila es responsable delcaracter&#xed;stico color verde de las plantas.&#xa;&#xa;El proceso completo de la alimentaci&#xf3;n de las plantas consiste b&#xe1;sicamente en:&#xa;&#xa;1- Absorci&#xf3;n: Las ra&#xed;ces de las plantas crecen hacia donde hay agua. Las ra&#xed;cesabsorben el agua y los minerales de la tierra.&#xa;2- Circulaci&#xf3;n: Con el agua y los minerales absorbidos por las ra&#xed;ces hasta las hojas a trav&#xe9;s del tallo.&#xa;3- Fotos&#xed;ntesis: Se realiza en las hojas, que se orientan hacia la luz. La clorofilade las hojas atrapa la luz del Sol. A partir de la luz del Sol y el di&#xf3;xido de carbono,se transforma la savia bruta en savia elaborada, que constituye el alimento de laplanta. Adem&#xe1;s, la planta produce ox&#xed;geno que es expulsado por las hojas.&#xa;4- Respiraci&#xf3;n: Las plantas, al igual que los animales, toman ox&#xed;geno y expulsan di&#xf3;xido de carbono. El proceso se produce sobre todo en las hojas y en los tallosverdes. La respiraci&#xf3;n la hacen tanto de d&#xed;a como por la noche, pero en la noche, ante la falta de luz, solo realizan la funci&#xf3;n de respiraci&#xf3;n y no de fotos&#xed;ntesis."/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnatrass">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="atras"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnatrassActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnsiguiente">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="siguiente"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsiguienteActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
